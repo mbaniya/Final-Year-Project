@@ -1,0 +1,5 @@
+export MPJ_HOME=/home/kali/working_folder/mpj-v0_44/
+
+javac -cp "$MPJ_HOME/lib/mpj.jar:." MainClass.java 
+
+ $MPJ_HOME/bin/mpjrun.sh -np 3 MainClass   
